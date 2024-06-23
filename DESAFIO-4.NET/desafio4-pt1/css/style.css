@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: 'mulish';
+    src: url(./Mulish/Mulish-VariableFont_wght.ttf);
+}
+body {
+    background: linear-gradient(to right, #d3dced, #1870eb); /* Fondo degradado */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+h1 {
+    color: #04146c;
+    font-size: 24.48pt;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'mulish';
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 17pt;
+    box-sizing: border-box;
+    font-family: 'mulish';
+    color: #414166;
+}
+input::placeholder, textarea::placeholder {
+    color: #888;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #15163d;
+    color: white;
+    border: none;
+    font-size: 17pt;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'mulish';
+    font-weight: bold;
+}
+button:hover {
+    background-color: darkblue;
+}
